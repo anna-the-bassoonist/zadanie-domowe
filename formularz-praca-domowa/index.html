@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>formularz</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/anna.toeplitz@gmail.com" method="post">
+        <label for="imie">Imię</label><br>
+        <input type="text" name="imie" id="imie"><br>
+
+        <label for="nazwisko">Nazwisko:</label><br>
+        <input type="text" name="nazwisko" id="nazwisko"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email"><br>
+        <label for="tel">Telefon:</label><br>
+        <input type="tel" name="telefon" id="tel"><br>
+
+        <label for="select">Wybierz miasto:<br>
+             <select name="select" id="select">
+                <option value="Kraków">Kraków</option>
+                <option value="Warszawa">Warszawa</option>
+                <option value="Gdańsk">Gdańsk</option>
+              </select><br>
+        </label>
+        <label>Płeć:<br>
+            <input type="radio" name="gender" id="kobieta">Kobieta</label>
+        <label>
+<!--   drugi sposób to dodać label do inputu po id:        <label for="kobieta"></label>
+           dajemy zazwyczaj po inpucie po tekst jest po kropce-->
+            <input type="radio" name="gender">Mężczyzna</label>
+        <br><br>
+        <label for="checkbox">Zgoda na dane osobowe</label>
+        <input type="checkbox" name="agreement" id="checkbox"> <br><br>
+        <label for="textarea">Wiadomość:</label><br>
+        <textarea name="msg" id="textarea" maxlength="50"></textarea><br>
+
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+
+</html>
