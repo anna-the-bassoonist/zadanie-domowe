@@ -1,0 +1,53 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Arial' sans-serif;
+    margin: 0;
+}
+
+#header {
+    background-image: url(obrazy/man-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+#header > h1 {
+    font-family: 'Verdana';
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 50vh;
+    padding: 15px 30px;
+
+}
+
+#header > h1 > span {
+    display: block;
+    font-size: 35px;
+    padding: 20px 25px;
+}
+
+
+@media screen (max-width:992px) {
+    
+}
+
+@media screen (min-width:992px) and (max-width:1170px) {
+    
+    #header {
+        background-image: url(obrazy/man-2.jpg);
+        
+    }
+}
+
+@media screen (min-width:1170px) {
+    
+}
+
+
+
+
+
