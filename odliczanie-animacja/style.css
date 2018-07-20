@@ -1,0 +1,74 @@
+body {
+    background-color: #2e2929;
+
+
+}
+
+#animation {
+    position: relative;
+    margin: 0 auto;
+    background-color: black;
+    height: 200px;
+    width: 400px;
+    top: 100px;
+    left: 30px;
+    font-size: 2em;
+}
+
+div.number {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 100px;
+    left: 100px;
+    opacity: 0;
+}
+
+@keyframes identifier {
+    0% {
+        opacity:1 ;
+    }
+}
+
+div.number {
+    animation-name: identifier;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.dziesiec {
+    animation-delay: 0s;
+    opacity: 1;
+}
+.dziewiec {
+    animation-delay: 1s;
+    opacity: 1;
+}
+
+.osiem {
+    animation-delay: 2s;
+}
+.siedem {
+    animation-delay: 3s;
+}
+.szesc {
+    animation-delay: 4s;
+}
+.piec {
+    animation-delay: 5s;
+}
+.cztery {
+    animation-delay: 6s;
+}
+.trzy {
+    animation-delay: 7s;
+}
+.dwa {
+    animation-delay: 8s;
+}
+.jeden {
+    animation-delay: 9s;
+}
+.end {
+    animation-delay: 10s;
+}

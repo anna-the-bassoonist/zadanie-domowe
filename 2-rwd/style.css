@@ -7,7 +7,7 @@ body {
 #header {
     background-image: url(obrazy/man-1.jpg);
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:cover;
     height: 50vh;
     
 }
